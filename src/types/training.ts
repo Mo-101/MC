@@ -29,4 +29,5 @@ export interface TrainingJob {
       syntheticImpact: number;
     }[];
   };
+  error?: string;
 }
